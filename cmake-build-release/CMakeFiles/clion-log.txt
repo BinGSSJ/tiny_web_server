@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/code/tiny_web_cmake
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/code/tiny_web_cmake/cmake-build-release

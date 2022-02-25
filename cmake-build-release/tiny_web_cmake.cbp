@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tiny_web_cmake"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/code/tiny_web_cmake/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/code/tiny_web_cmake/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/code/tiny_web_cmake/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiny_web_cmake">
+				<Option output="/home/code/tiny_web_cmake/cmake-build-release/tiny_web_cmake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/code/tiny_web_cmake/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 tiny_web_cmake"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiny_web_cmake/fast">
+				<Option output="/home/code/tiny_web_cmake/cmake-build-release/tiny_web_cmake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/code/tiny_web_cmake/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 tiny_web_cmake/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/code/tiny_web_cmake/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/code/tiny_web_cmake/CGImysql/sql_connection_pool.cpp">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/CGImysql/sql_connection_pool.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/Config.cpp">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/Config.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/http/http_conn.cpp">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/http/http_conn.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/lock/locker.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/log/block_queue.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/log/log.cpp">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/log/log.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/main.cpp">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/redis/redis_con.cpp">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/redis/redis_con.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/threadpool/threadpool.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/timer/lst_timer.cpp">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/timer/lst_timer.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/webserver.cpp">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/webserver.h">
+			<Option target="tiny_web_cmake"/>
+		</Unit>
+		<Unit filename="/home/code/tiny_web_cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
